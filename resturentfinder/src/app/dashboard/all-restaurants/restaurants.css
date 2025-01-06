@@ -1,0 +1,157 @@
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.dashboard-container .sidebar {
+  width: 250px;
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+/* Main Content Area */
+.dashboard-main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Title */
+.dashboard-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+/* Search Bar */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+/* Restaurant List */
+.restaurant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.restaurant-card {
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card h3 {
+  color: var(--primary-color);
+}
+
+.restaurant-card p {
+  color: var(--secondary-color);
+}
+
+.restaurant-card button {
+  padding: 10px 15px;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--primary-color);
+  margin-top: 10px;
+}
+
+.restaurant-card button:hover {
+  background-color: var(--hover-color);
+}
+
+/* Modal */
+.modal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto; /* Allows scrolling of the modal */
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%; /* Make the width responsive */
+  max-width: 600px; /* Maximum width */
+  max-height: 80%; /* Ensure it doesn't exceed 80% of viewport height */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Add vertical scrolling to the modal content */
+}
+
+/* Modal Header */
+.modal-content h2 {
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+/* Form Elements */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Buttons in Modal */
+button {
+  padding: 12px;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  font-size: 14px;
+}

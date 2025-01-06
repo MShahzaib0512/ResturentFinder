@@ -1,0 +1,338 @@
+:root {
+  --primary-color: #603f26;
+  --secondary-color: #6c4e31;
+  --accent-color: #ffdbb5;
+  --hover-color: #ffeac5;
+}
+
+/* General Styles */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: var(--accent-color);
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.sidebar-menu li {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar-menu li:hover {
+  background-color: var(--hover-color);
+  color: var(--secondary-color);
+}
+
+.logout-btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: var(--hover-color);
+  color: var(--primary-color);
+}
+
+/* Main Content Styles */
+.dashboard-main {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background-color: var(--hover-color);
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.stats-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stats-card {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+}
+
+.stats-card h3 {
+  font-size: 1.2rem;
+}
+
+.stats-card p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.add-restaurant-btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-restaurant-btn:hover {
+  background-color: var(--hover-color);
+  color: var(--primary-color);
+}
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  color: white;
+}
+
+.modal h2 {
+  margin-bottom: 15px;
+}
+
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.modal-buttons button {
+  margin: 5px;
+  padding: 8px 12px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-close-btn {
+  background: red;
+}
+/* General Reset and Base Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(
+    --accent-color
+  ); /* Soft background with your accent color */
+  color: #fff; /* Text in white for contrast */
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  background-color: var(--primary-color); /* Sidebar has primary color */
+}
+
+.dashboard-main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: var(
+    --secondary-color
+  ); /* Secondary color for the main content */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+  font-size: 28px;
+  color: var(--accent-color); /* Accent color for title text */
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Form Styling */
+.restaurant-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: var(
+    --secondary-color
+  ); /* Secondary color for the form background */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group Styling */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Label Styling */
+.form-group label {
+  font-size: 14px;
+  color: var(--accent-color); /* Accent color for labels */
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Input and Textarea Styling */
+.restaurant-form input,
+.restaurant-form textarea {
+  padding: 14px 18px;
+  border: 2px solid var(--secondary-color); /* Border with secondary color */
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333; /* Dark text color for input fields */
+  background-color: var(--accent-color); /* Soft background for inputs */
+  transition: all 0.3s ease;
+}
+
+.restaurant-form input:focus,
+.restaurant-form textarea:focus {
+  border-color: var(--primary-color); /* Primary color on focus */
+  background-color: #fff; /* White background when focused */
+  outline: none;
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+/* Textarea Resizing */
+.restaurant-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Button Styling */
+.restaurant-form button {
+  padding: 12px 20px;
+  background-color: var(--primary-color); /* Primary color for the button */
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.restaurant-form button:hover {
+  background-color: var(--secondary-color); /* Secondary color on hover */
+  transform: translateY(-2px);
+}
+
+.restaurant-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Success and Error Messages */
+.error-message,
+.success-message {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.error-message {
+  color: #e74c3c;
+}
+
+.success-message {
+  color: #2ecc71;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .restaurant-form {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .restaurant-form h2 {
+    font-size: 24px;
+  }
+
+  .restaurant-form button {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
+.view-all-restaurants-btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-all-restaurants-btn:hover {
+  background-color: var(--hover-color);
+  color: var(--primary-color);
+}

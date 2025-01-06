@@ -1,0 +1,119 @@
+:root {
+  --primary-color: #603f26;
+  --secondary-color: #6c4e31;
+  --accent-color: #ffdbb5;
+  --hover-color: #ffeac5;
+}
+
+body {
+  background-color: var(--accent-color);
+}
+/* Auth Container */
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  background: var(--accent-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.auth-title {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: var(--secondary-color);
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--hover-color);
+}
+
+.password-group {
+  position: relative;
+}
+
+.eye-button {
+  position: absolute;
+  right: 10px;
+  top: 65%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+/* Button Styling */
+.auth-button {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.auth-button:hover {
+  background: var(--secondary-color);
+}
+
+.auth-link {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+}
+
+.auth-link-text {
+  color: var(--primary-color);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.auth-link-text:hover {
+  color: var(--hover-color);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

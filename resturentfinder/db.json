@@ -1,0 +1,671 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Kebapci",
+      "address": "Bahawalpur, Punjab, Pakistan",
+      "city": "Bahawalpur",
+      "contact": "+92 62 11111111",
+      "cuisine": [
+        "Turkish",
+        "Pakistani"
+      ],
+      "image": "Kebapci.jpg",
+      "details": "Specializes in Turkish and Pakistani cuisine, offering dishes like Adana Kebab and Iskender Kebab.",
+      "google_maps_link": "https://maps.app.goo.gl/oXQutDZswieJgVeD8",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.18671873666!2d71.64815907857476!3d29.39409341146059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b972f8aced293%3A0x7fd113f29a014a9a!2sKebapci!5e0!3m2!1sen!2s!4v1734865004660!5m2!1sen!2s"
+    },
+    {
+      "id": "2",
+      "name": "4 Seasons Restaurant",
+      "address": "Bahawalpur, Punjab, Pakistan",
+      "city": "Bahawalpur",
+      "contact": "+92 62 22222222",
+      "cuisine": [
+        "Pakistani",
+        "Continental"
+      ],
+      "image": "4 Seasons Restaurant.jpg",
+      "details": "Offers a blend of Pakistani and Continental dishes.",
+      "google_maps_link": "https://maps.app.goo.gl/hkNgxvj6TcXjqRENA",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14238023.8752652!2d52.147434949999976!3d29.397214299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b9749a986dc49%3A0xf3091f4061259377!2sFour%20Seasons%20Restaurant!5e0!3m2!1sen!2s!4v1734865166718!5m2!1sen!2s"
+    },
+    {
+      "id": "3",
+      "name": "Libra Valley",
+      "image": "Libra Valley.jpg",
+      "address": "Bahawalpur, Punjab, Pakistan",
+      "city": "Bahawalpur",
+      "contact": "+92 62 33333333",
+      "cuisine": [
+        "Chinese",
+        "Asian",
+        "Thai",
+        "Pakistani"
+      ],
+      "details": "Provides a variety of Asian and Pakistani options.",
+      "google_maps_link": "https://maps.app.goo.gl/cu9p2hnFfuuF5oEW8",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.9713789983134!2d71.63888587493821!3d29.45884607522368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b992bc3b18253%3A0x2a1914a390617d3b!2sLibra%20Valley%20Restaurant!5e0!3m2!1sen!2s!4v1734865217621!5m2!1sen!2s"
+    },
+    {
+      "id": "4",
+      "name": "Salt'n Pepper Bahawalpur",
+      "image": "Salt'n Pepper Bahawalpur.jpg",
+      "address": "Bahawalpur, Punjab, Pakistan",
+      "contact": "+92 62 44444444",
+      "city": "Bahawalpur",
+      "cuisine": [
+        "Chinese",
+        "Grill"
+      ],
+      "details": "Part of a renowned chain, offering a range of cuisines.",
+      "google_maps_link": "https://maps.app.goo.gl/EoTken5pSuDpSscKA",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.2118644842412!2d71.68653037493539!3d29.39335767525794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b90c1884e2fab%3A0x97048f8fcbdf08ac!2sSalt&#39;n%20Pepper%20Bahawalpur!5e0!3m2!1sen!2s!4v1734865259509!5m2!1sen!2s"
+    },
+    {
+      "id": "5",
+      "name": "La Serre Restaurant",
+      "image": "La Serre Restaurant.jpg",
+      "address": "Bahawalpur, Punjab, Pakistan",
+      "contact": "+92 62 55555555",
+      "city": "Bahawalpur",
+      "cuisine": [
+        "Chinese",
+        "Pizza"
+      ],
+      "details": "Elegant ambiance and quality food.",
+      "google_maps_link": "https://maps.app.goo.gl/MCFZ4gYgPSmfdR8V9",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.370558676983!2d71.66486547493523!3d29.388714075260353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b9735d99bfda7%3A0xd6c4d1f13ea437c4!2sLa%20Serre%20Restaurant%20-%20Model%20Town%2C%20Bahawalpur!5e0!3m2!1sen!2s!4v1734865290700!5m2!1sen!2s"
+    },
+    {
+      "id": "6",
+      "name": "Kebabish Grill",
+      "image": "Kebabish Grill.jpg",
+      "address": "Bahawalpur, Punjab, Pakistan",
+      "city": "Bahawalpur",
+      "contact": "+92 62 66666666",
+      "cuisine": [
+        "Pakistani",
+        "Middle Eastern"
+      ],
+      "details": "Specializes in grilled items.",
+      "google_maps_link": "https://maps.app.goo.gl/oh2dRwmvb7FQ1nM66",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.508148521055!2d71.65836257493504!3d29.384687475262414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b9731f1239c31%3A0x9cd0cd2b8cc783f5!2sKebabish%20Grill!5e0!3m2!1sen!2s!4v1734865332150!5m2!1sen!2s"
+    },
+    {
+      "id": "7",
+      "name": "Shahjahan Grill Restaurant",
+      "image": "Shahjahan Grill Restaurant.jpg",
+      "address": "Bahawalpur, Punjab, Pakistan",
+      "city": "Bahawalpur",
+      "contact": "+92 62 77777777",
+      "cuisine": [
+        "Grill",
+        "Barbecue"
+      ],
+      "details": "Famous for barbecue and grilled dishes.",
+      "google_maps_link": "https://maps.app.goo.gl/Nz6ccUANXYjmVb8p8",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.081495870002!2d71.67570957503648!3d29.390791749245302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b90cf44921ad1%3A0xc4f471efb46affd8!2zU2hhaGphaGFuIEdyaWxsIFJlc3RhdXJhbnQgYmFoYXdhbHB1ciDYtNin24HYrNuB2KfZhiDar9ix2ZDZhCDYsduM2LPZudmI2LHZhtm5INio24HYp9mI2YTZvtmI2LE!5e1!3m2!1sen!2sus!4v1734893548573!5m2!1sen!2sus"
+    },
+    {
+      "id": "8",
+      "name": "Tandoori Restaurant",
+      "image": "Tandoori Restaurant Desert Grill.jpg",
+      "address": "Bahawalpur, Punjab, Pakistan",
+      "city": "Bahawalpur",
+      "contact": "+92 62 88888888",
+      "cuisine": [
+        "Indian",
+        "Pakistani"
+      ],
+      "details": "Famous for Indian and Pakistani cuisine.",
+      "google_maps_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12728.157950791321!2d71.65658799618483!3d29.39213459984607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b9127fe71e681%3A0x1f2ff0efc6f259f5!2sTandoori%20Restaurant%20Desert%20Grill!5e1!3m2!1sen!2sus!4v1734893463658!5m2!1sen!2sus",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12728.157950791321!2d71.65658799618483!3d29.39213459984607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b9127fe71e681%3A0x1f2ff0efc6f259f5!2sTandoori%20Restaurant%20Desert%20Grill!5e1!3m2!1sen!2sus!4v1734893463658!5m2!1sen!2sus"
+    },
+    {
+      "id": "9",
+      "name": "Victoria lounge",
+      "image": "victoria lounge.jpg",
+      "address": "Bahawalpur, Punjab, Pakistan",
+      "city": "Bahawalpur",
+      "contact": "+062 250 1263",
+      "cuisine": [
+        "Continental",
+        "Fast Food"
+      ],
+      "details": "Known for a range of continental dishes and fast food.",
+      "google_maps_link": "https://maps.app.goo.gl/PZfWfygAasEo59aP7",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.079919246824!2d71.67564287503637!3d29.390842149243028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b90cf44610e1f%3A0x867c5500fcb0cc0b!2sVictoria%20Lounge%20cafe%20and%20Bakers!5e1!3m2!1sen!2sus!4v1734894279562!5m2!1sen!2sus"
+    },
+    {
+      "id": "10",
+      "name": "Almaida Fried Chicken",
+      "image": "Almaida Fried Chicken.jpg",
+      "address": "Bahawalpur, Punjab, Pakistan",
+      "city": "Bahawalpur",
+      "contact": "+92 62 10101010",
+      "cuisine": [
+        "Fast Food"
+      ],
+      "details": "Fried chicken specialists.",
+      "google_maps_link": "https://maps.app.goo.gl/fzXxBZaoZNYMjaHm9",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55617.03713316688!2d71.60862927599558!3d29.39765976920426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b90cc0bf00b89%3A0xe1763a73a30aad38!2zQWxtYWlkYSBGcmllZCDYp9mE2YXYp9im2K_bgSDZgdix2KfYptuM2og!5e0!3m2!1sen!2s!4v1734865447943!5m2!1sen!2s"
+    },
+    {
+      "id": "11",
+      "name": "Cuckoo's Den",
+      "image": "Cuckoo's Den.jpg",
+      "city": "Lahore",
+      "address": "Old Lahore, Lahore, Pakistan",
+      "contact": "+92 42 37375565",
+      "cuisine": [
+        "Pakistani"
+      ],
+      "details": "Famous for its rooftop view near Badshahi Mosque.",
+      "google_maps_link": "https://maps.app.goo.gl/LHYkBJFstZsJXwDK7",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.946853702322!2d74.3115382!3d31.5870291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191c9df8a58b85%3A0xb0633b0025784df4!2sCooco&#39;s%20Den!5e1!3m2!1sen!2s!4v1734961221762!5m2!1sen!2s"
+    },
+    {
+      "id": "12",
+      "name": "Monal Lahore",
+      "image": "Monal Lahore.jpg",
+      "address": "Gulberg, Lahore, Pakistan",
+      "city": "Lahore",
+      "contact": "+92 42 35789823",
+      "cuisine": [
+        "Pakistani",
+        "Continental"
+      ],
+      "details": "Elegant dining with a variety of cuisines.",
+      "google_maps_link": "https://maps.app.goo.gl/DAwXkYByCzW5EuZCA",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.6507879970177!2d74.3410679!3d31.509798900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919045c800b7a65%3A0x9bfe5a537cfceea4!2sMonal%20Lahore!5e1!3m2!1sen!2s!4v1734867659573!5m2!1sen!2s"
+    },
+    {
+      "id": "13",
+      "name": "Butt Karahi",
+      "image": "Butt Karahi.jpg",
+      "address": "Lakshmi Chowk, Lahore, Pakistan",
+      "city": "Lahore",
+      "contact": "+92 42 37220729",
+      "cuisine": [
+        "Pakistani"
+      ],
+      "details": "Renowned for traditional Karahi dishes.",
+      "google_maps_link": "https://maps.app.goo.gl/m6ZBuqUEaNYK2h4a8",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d104541.56536754497!2d74.2451878!3d31.5591416!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b51e1b461e5%3A0x90d7fb6cd177daa6!2sButt%20Karahi!5e1!3m2!1sen!2s!4v1734867678741!5m2!1sen!2s"
+    },
+    {
+      "id": "14",
+      "name": "Salt'n Pepper Lahore",
+      "image": "Salt'n Pepper Lahore.jpg",
+      "address": "Gulberg, Lahore, Pakistan",
+      "city": "Lahore",
+      "contact": "+92 42 32173555",
+      "cuisine": [
+        "Pakistani",
+        "Continental"
+      ],
+      "details": "A staple for traditional Pakistani food.",
+      "google_maps_link": "https://maps.app.goo.gl/PzwJzFdZKJu3Z6uD6",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d104541.50619426444!2d74.2451881!3d31.5591944!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190451a40a560d%3A0x37d5767649c0f5a7!2sSalt&#39;n%20Pepper%20Village%20Lahore!5e1!3m2!1sen!2s!4v1734867703872!5m2!1sen!2s"
+    },
+    {
+      "id": "15",
+      "name": "Arcadian Cafe",
+      "image": "Arcadian Cafe.jpg",
+      "address": "Gulberg, Lahore, Pakistan",
+      "city": "Lahore",
+      "contact": "+92 42 35770793",
+      "cuisine": [
+        "Continental"
+      ],
+      "details": "Modern ambiance with diverse cuisine options.",
+      "google_maps_link": "https://maps.app.goo.gl/7aXCDQJXjw1NMnPN7",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d104541.44690882426!2d74.2451884!3d31.5592473!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f9af41fc09%3A0x6f3398f327255cfb!2sArcadian%20Cafe!5e1!3m2!1sen!2s!4v1734867724585!5m2!1sen!2s"
+    },
+    {
+      "id": "16",
+      "name": "Fujiyama",
+      "image": "Fujiyama.jpg",
+      "address": "The Pearl Continental Hotel, Lahore, Pakistan",
+      "city": "Lahore",
+      "contact": "+92 42 111505505",
+      "cuisine": [
+        "Japanese"
+      ],
+      "details": "Authentic Japanese dining experience.",
+      "google_maps_link": "https://maps.app.goo.gl/8xCAg3oUkZS7D75o9",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.9174386416394!2d74.3275905!3d31.559326599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904b31245598b%3A0xa837f4bd11c4159!2sFujiyama%20Restaurant!5e1!3m2!1sen!2s!4v1734867743954!5m2!1sen!2s"
+    },
+    {
+      "id": "17",
+      "name": "Yum Chinese & Thai",
+      "image": "Yum Chinese & Thai.jpg",
+      "address": "Gulberg, Lahore, Pakistan",
+      "contact": "+92 42 35715535",
+      "city": "Lahore",
+      "cuisine": [
+        "Chinese",
+        "Thai"
+      ],
+      "details": "Known for high-quality Asian cuisine.",
+      "google_maps_link": "https://maps.app.goo.gl/HkqfCtrDMDp33Dzu6",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d52291.84986518569!2d74.2725143!3d31.5215252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f84960f867%3A0x5b59810fab801194!2sYum%20Chinese%20%26%20Thai!5e1!3m2!1sen!2s!4v1734867764884!5m2!1sen!2s"
+    },
+    {
+      "id": "18",
+      "name": "Haveli Restaurant",
+      "image": "Haveli Restaurant.jpg",
+      "address": "Food Street, Lahore, Pakistan",
+      "city": "Lahore",
+      "contact": "+92 42 37245880",
+      "cuisine": [
+        "Pakistani"
+      ],
+      "details": "Offers a scenic view of Badshahi Mosque.",
+      "google_maps_link": "https://maps.app.goo.gl/c9mnoYFfKETQi6MC6",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.9530504890918!2d74.3113887!3d31.5868523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191c9dfc3789fb%3A0x22d30131c3dfa74a!2sHaveli%20Restaurant!5e1!3m2!1sen!2s!4v1734867784865!5m2!1sen!2s"
+    },
+    {
+      "id": "19",
+      "name": "Nando's Lahore",
+      "image": "Nando's Lahore.jpg",
+      "address": "Gulberg, Lahore, Pakistan",
+      "city": "Lahore",
+      "contact": "+92 42 111626367",
+      "cuisine": [
+        "Portuguese"
+      ],
+      "details": "Famous for peri-peri chicken dishes.",
+      "google_maps_link": "https://maps.app.goo.gl/kDgBLNg71pjMMVVE6",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d52293.416664898774!2d74.2788492!3d31.518726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190451b9abeea1%3A0x53ce044cf4613c96!2sNando&#39;s%20Gulberg!5e1!3m2!1sen!2s!4v1734867807957!5m2!1sen!2s"
+    },
+    {
+      "id": "20",
+      "name": "Spice Bazaar",
+      "image": "Spice Bazaar.jpg",
+      "city": "Lahore",
+      "address": "DHA, Lahore, Pakistan",
+      "contact": "+92 42 35771717",
+      "cuisine": [
+        "Pakistani"
+      ],
+      "details": "Modern Pakistani cuisine in a fine-dining setting.",
+      "google_maps_link": "https://maps.app.goo.gl/1pVR7TXvrUex3zun6",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d52293.409276739185!2d74.2788492!3d31.5187392!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904559748ab4f%3A0xd30dd8a06dbec09b!2sSpice%20Bazaar!5e1!3m2!1sen!2s!4v1734867837243!5m2!1sen!2s"
+    },
+    {
+      "id": "21",
+      "name": "Kolachi Restaurant",
+      "image": "Kolachi Restaurant.jpg",
+      "address": "Do Darya, Karachi, Pakistan",
+      "city": "Karachi",
+      "contact": "+92 21 111111111",
+      "cuisine": [
+        "Pakistani",
+        "BBQ"
+      ],
+      "details": "Popular seaside restaurant.",
+      "google_maps_link": "https://maps.app.goo.gl/jgfxRykd46e5gKsN7",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57954.37254728585!2d67.0241444914127!3d24.790375461319442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d16c60976e3%3A0xc9989c97ba48c2da!2sKolachi%20Restaurant!5e0!3m2!1sen!2s!4v1734867290629!5m2!1sen!2s"
+    },
+    {
+      "id": "22",
+      "name": "Okra",
+      "image": "Okra.jpg",
+      "address": "Zamzama, Karachi, Pakistan",
+      "city": "Karachi",
+      "contact": "+92 21 35838092",
+      "cuisine": [
+        "Continental"
+      ],
+      "details": "Fine dining experience.",
+      "google_maps_link": "https://maps.app.goo.gl/hek7GGJvd5wrHPMN8",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.3282680024154!2d67.03688927475106!3d24.818445127956732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33db1ef73c8af%3A0x81aa9fbabffa255a!2sOkra%20Restaurant!5e0!3m2!1sen!2s!4v1734867322003!5m2!1sen!2s"
+    },
+    {
+      "id": "23",
+      "name": "BBQ Tonight",
+      "image": "BBQ Tonight.jpg",
+      "address": "Clifton, Karachi, Pakistan",
+      "city": "Karachi",
+      "contact": "+92 21 111227227",
+      "cuisine": [
+        "Pakistani",
+        "BBQ"
+      ],
+      "details": "Famous for BBQ dishes.",
+      "google_maps_link": "https://maps.app.goo.gl/nadHtK6rk7NaSRDV8",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57941.25493756202!2d66.99826429148426!3d24.81843946253134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d97eb369c7d%3A0x74882ba91beb6409!2sBar%20BQ%20Tonight%20Clifton!5e0!3m2!1sen!2s!4v1734867349719!5m2!1sen!2s"
+    },
+    {
+      "id": "24",
+      "name": "Xander's",
+      "image": "Xander's.jpg",
+      "address": "Multiple Locations, Karachi, Pakistan",
+      "city": "Karachi",
+      "contact": "+92 21 111922637",
+      "cuisine": [
+        "Continental",
+        "Fast Food"
+      ],
+      "details": "Modern and elegant.",
+      "google_maps_link": "https://maps.app.goo.gl/ARHupWdWSznw7s7E7",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231769.66701984155!2d66.82135043649649!3d24.815955053770555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d08446c7a2d%3A0x384ebc019ffe51f0!2sXander&#39;s%20Clifton!5e0!3m2!1sen!2s!4v1734867377841!5m2!1sen!2s"
+    },
+    {
+      "id": "25",
+      "name": "Cafe Flo",
+      "image": "Cafe Flo.jpg",
+      "address": "Clifton, Karachi, Pakistan",
+      "city": "Karachi",
+      "contact": "+92 21 35862075",
+      "cuisine": [
+        "French"
+      ],
+      "details": "Exclusive French cuisine.",
+      "google_maps_link": "https://maps.app.goo.gl/KfttJGxm14KihQBZ8",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.648793612903!2d67.03152977475072!3d24.807476877963957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33da7dafa0253%3A0x72ec9e8646415d8c!2sCafe%20Flo!5e0!3m2!1sen!2s!4v1734867405131!5m2!1sen!2s"
+    },
+    {
+      "id": "26",
+      "name": "Butler's Chocolate Cafe",
+      "image": "Butler's Chocolate Cafe.jpg",
+      "address": "Clifton, Karachi, Pakistan",
+      "contact": "+92 21 35873092",
+      "city": "Karachi",
+      "cuisine": [
+        "Desserts",
+        "Coffee"
+      ],
+      "details": "Chocolate lovers' heaven.",
+      "google_maps_link": "https://maps.app.goo.gl/4DUhZejqU6BmEy53A",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14486.595218232402!2d67.02380494364374!3d24.807476503346397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33dade51dac03%3A0xe6b354c7366d2462!2sButlers%20Chocolate%20Caf%C3%A9!5e0!3m2!1sen!2s!4v1734867442111!5m2!1sen!2s"
+    },
+    {
+      "id": "27",
+      "name": "Aunty Park Nihari",
+      "image": "Aunty Park Nihari.jpg",
+      "address": "Nazimabad, Karachi, Pakistan",
+      "city": "Karachi",
+      "contact": "+92 21 36673132",
+      "cuisine": [
+        "Pakistani"
+      ],
+      "details": "Authentic Nihari dishes.",
+      "google_maps_link": "https://maps.app.goo.gl/6n3G6GQAGzZYPrYY7",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28970.321622721833!2d67.0070455!3d24.8197474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33dc30d0f256f%3A0x582ebf9f3cc9bd37!2sAunty%20Rano&#39;s%20Nihari!5e0!3m2!1sen!2s!4v1734867490685!5m2!1sen!2s"
+    },
+    {
+      "id": "28",
+      "name": "The Patio",
+      "image": "The Patio.jpg",
+      "address": "Clifton, Karachi, Pakistan",
+      "city": "Karachi",
+      "contact": "+92 21 35158600",
+      "cuisine": [
+        "Pakistani",
+        "Continental"
+      ],
+      "details": "Chic and cozy.",
+      "google_maps_link": "https://maps.app.goo.gl/izHRfDm5ZCAkDnP4A",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.6866835559154!2d67.0335896!3d24.80618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33da7f189d2c3%3A0x66fa01423d72007c!2sThe%20Patio%20-%20Contemporary%20Fusion%20Restaurant!5e0!3m2!1sen!2s!4v1734867519818!5m2!1sen!2s"
+    },
+    {
+      "id": "29",
+      "name": "China Town",
+      "image": "China Town.jpg",
+      "address": "Karachi, Pakistan",
+      "city": "Karachi",
+      "contact": "+92 21 111111111",
+      "cuisine": [
+        "Chinese"
+      ],
+      "details": "Authentic Chinese cuisine.",
+      "google_maps_link": "https://maps.app.goo.gl/J9BLSF17DcyTbjYf8",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.546354343109!2d67.0178454!3d24.810982799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d9973e397dd%3A0xdf7d73c448dc690e!2sChina%20Town!5e0!3m2!1sen!2s!4v1734867539381!5m2!1sen!2s"
+    },
+    {
+      "id": "30",
+      "name": "Salt'n Pepper Karachi",
+      "image": "Salt'n Pepper Karachi.jpg",
+      "address": "Karachi, Sindh, Pakistan",
+      "city": "Karachi",
+      "contact": "+92 42 32173555",
+      "cuisine": [
+        "Pakistani",
+        "Continental"
+      ],
+      "details": "Traditional and Continental dishes.",
+      "google_maps_link": "https://maps.app.goo.gl/V8WUMvzCC9xTu2FD6",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d115816.78010636025!2d66.9809048!3d24.8886209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c5cfaf521ef%3A0xf36a76855d659aef!2sHot%20N%20Pepper!5e0!3m2!1sen!2s!4v1734867564490!5m2!1sen!2s"
+    },
+    {
+      "id": "31",
+      "name": "The Monal",
+      "image": "The Monal.jpg",
+      "address": "Pir Sohawa, Islamabad, Pakistan",
+      "city": "Islamabad",
+      "contact": "+92 51 2898044",
+      "cuisine": [
+        "Pakistani",
+        "Continental"
+      ],
+      "details": "Known for its breathtaking view and delicious food.",
+      "google_maps_link": "https://maps.app.goo.gl/Y5Dp3tQGfDwnf3HN9",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.0222857817234!2d73.06310487513753!3d33.76008997326841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf49c71bac3b%3A0x440c38883a64cd51!2sThe%20Monal%20Islamabad!5e0!3m2!1sen!2s!4v1734865527837!5m2!1sen!2s"
+    },
+    {
+      "id": "32",
+      "name": "Street 1 Cafe",
+      "image": "Street 1 Cafe.jpg",
+      "address": "Kohsar Market, Islamabad, Pakistan",
+      "city": "Islamabad",
+      "contact": "+92 51 2823431",
+      "cuisine": [
+        "Continental"
+      ],
+      "details": "A cozy spot with a variety of dishes.",
+      "google_maps_link": "https://maps.app.goo.gl/MYvepb53LqCv1VPS6",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13271.89920820028!2d73.05911058715822!3d33.73546770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf7add13fd47%3A0x228328ba4473a11b!2sStreet%201%20Cafe!5e0!3m2!1sen!2s!4v1734865583510!5m2!1sen!2s"
+    },
+    {
+      "id": "33",
+      "name": "Tuscany Courtyard",
+      "image": "Tuscany Courtyard.jpg",
+      "address": "F-6, Islamabad, Pakistan",
+      "city": "Islamabad",
+      "contact": "+92 51 8445544",
+      "cuisine": [
+        "Italian"
+      ],
+      "details": "Offers authentic Italian cuisine.",
+      "google_maps_link": "https://maps.app.goo.gl/qHH4iMEwqfpEs6ad8",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.972134664406!2d73.0757728751363!3d33.73553667327788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf079cabb7f5%3A0xc8a2c73246e0492e!2sTuscany%20Courtyard%20Islamabad!5e0!3m2!1sen!2s!4v1734866988714!5m2!1sen!2s"
+    },
+    {
+      "id": "34",
+      "name": "Des Pardes",
+      "image": "Des Pardes.jpg",
+      "address": "Saidpur Village, Islamabad, Pakistan",
+      "city": "Islamabad",
+      "contact": "+92 51 2320008",
+      "cuisine": [
+        "Pakistani"
+      ],
+      "details": "Rustic ambiance with traditional Pakistani food.",
+      "google_maps_link": "https://maps.app.goo.gl/qSMttc2u7vCYmYe5A",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.6366219146944!2d73.06517737513673!3d33.744211373274474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf6c62a75ffb%3A0x86314044a4c237e6!2sDes%20Pardes%20Restaurant!5e0!3m2!1sen!2s!4v1734867014814!5m2!1sen!2s"
+    },
+    {
+      "id": "35",
+      "name": "Chaye Khana",
+      "image": "Chaye Khana.jpg",
+      "address": "F-7, Islamabad, Pakistan",
+      "contact": "+92 51 111111500",
+      "cuisine": [
+        "Cafe"
+      ],
+      "details": "Perfect for tea and light snacks.",
+      "city": "Islamabad",
+      "google_maps_link": "https://maps.app.goo.gl/5835HJvfZZoZWNgY8",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53082.19020175711!2d73.02655249155879!3d33.74420450449075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf7768360b6d%3A0xe2f86ff45e49cadf!2schaay%C3%A9%20khana!5e0!3m2!1sen!2s!4v1734867043685!5m2!1sen!2s"
+    },
+    {
+      "id": "36",
+      "name": "Zenose Restaurant",
+      "image": "Zoe's.jpg",
+      "address": "F-8, Islamabad, Pakistan",
+      "contact": "+92 51 8484422",
+      "city": "Islamabad",
+      "cuisine": [
+        "American"
+      ],
+      "details": "A vibrant place for American style meals.",
+      "google_maps_link": "https://maps.app.goo.gl/M9Ae7z5xXayVh3hv6",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.804799273701!2d73.08380797521114!3d33.71715303535063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf87ca6adb8b%3A0xe64f154aa23d8631!2sZenose%20Restaurant!5e1!3m2!1sen!2s!4v1734932518747!5m2!1sen!2s"
+    },
+    {
+      "id": "37",
+      "name": "Café Lazeez",
+      "image": "Café Lazeez.jpg",
+      "address": "F-6, Islamabad, Pakistan",
+      "city": "Islamabad",
+      "contact": "+92 51 2225001",
+      "cuisine": [
+        "Continental",
+        "Chinese"
+      ],
+      "details": "Famous for its multi-cuisine offerings.",
+      "google_maps_link": "https://maps.app.goo.gl/2W7q8gC94FsETtMx8",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194488.06678572216!2d72.80623499801992!3d33.686865087025716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfa644711f89%3A0x386cefb8a15e6d21!2sCafe%20Lazeez!5e1!3m2!1sen!2s!4v1734932359735!5m2!1sen!2s"
+    },
+    {
+      "id": "38",
+      "city": "Islamabad",
+      "name": "Tandoor Restaurant",
+      "image": "Tandoor Restaurant.jpg",
+      "address": "F-11, Islamabad, Pakistan",
+      "contact": "+92 51 111444555",
+      "cuisine": [
+        "Indian",
+        "Pakistani"
+      ],
+      "details": "Authentic Indian and Pakistani flavors.",
+      "google_maps_link": "https://maps.app.goo.gl/6fYNY8K1g99zv42s9",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48622.15295961091!2d72.92984714863279!3d33.6866242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbe11c5a8df33%3A0x79059cefb508090!2sTandoori%20Restaurant%20F10%20Islamabad!5e1!3m2!1sen!2s!4v1734932286785!5m2!1sen!2s"
+    },
+    {
+      "id": "39",
+      "name": "The Royal Elephant",
+      "image": "The Royal Elephant.jpg",
+      "city": "Islamabad",
+      "address": "F-7, Islamabad, Pakistan",
+      "contact": "+92 51 2812332",
+      "cuisine": [
+        "Thai"
+      ],
+      "details": "Traditional Thai food in an elegant setting.",
+      "google_maps_link": "https://maps.app.goo.gl/3sPhc9xX2FrgMBJeA",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.257541537071!2d73.08461997521181!3d33.732616734540784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf7dfd081c4b%3A0xffaacb2ba1a1db4f!2sRoyal%20Elephant%20Thai%20Restaurant!5e1!3m2!1sen!2s!4v1734932216280!5m2!1sen!2s"
+    },
+    {
+      "id": "40",
+      "name": "Khoka Khola",
+      "image": "Khoka Khola.jpg",
+      "address": "F-6, Islamabad, Pakistan",
+      "city": "Islamabad",
+      "contact": "+92 51 8445534",
+      "cuisine": [
+        "Pakistani",
+        "Barbecue"
+      ],
+      "details": "Known for its BBQ and street food offerings.",
+      "google_maps_link": "https://maps.app.goo.gl/nVxKkFwYfkjbdEvW9",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194637.71114337654!2d72.95170360451847!3d33.620672328831276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf9c9b59dc71%3A0x5845520ec9eb3f06!2sKhoka%20Khola!5e1!3m2!1sen!2s!4v1734932129164!5m2!1sen!2s"
+    }
+  ],
+  "users": [
+    {
+      "id": "b0f2",
+      "username": "shahzaib",
+      "email": "talhawork0512@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "0dc8",
+      "username": "shahzaib",
+      "email": "talhawork0512@gmail.com",
+      "password": "hello world"
+    },
+    {
+      "id": "24ca",
+      "username": "shahzaib",
+      "email": "jdslfadjfsalf@gmail.com",
+      "password": "jdslfadjfsalf@gmail.com"
+    },
+    {
+      "id": "1db9",
+      "username": "shahzaib",
+      "email": "shahzaib@gmail.com",
+      "password": "shahzaib@gmail.com"
+    },
+    {
+      "id": "7208",
+      "username": "ahmad@gmail.com",
+      "email": "ahmad@gmail.com",
+      "password": "ahmad@gmail.com"
+    },
+    {
+      "id": "38f4",
+      "username": "shahzaib",
+      "email": "shahzaib@gmail.com",
+      "password": "shahzaib@gmail.com"
+    }
+  ],
+  "blog": {
+    "id": 1,
+    "title": "Welcome to Restaurant: A Culinary Journey Awaits",
+    "content": {
+      "story": "Every great restaurant has an inspiring story, and ours is no exception. Established in Year's, Our Restaurant  was born out of a passion for culinary excellence and a desire to bring people together through food.",
+      "cuisine": {
+        "intro": "At [Restaurant Name], food is an art form, and we take great care in crafting dishes that tantalize your taste buds and nourish your soul.",
+        "highlights": [
+          "Fresh, Locally-Sourced Ingredients: We believe in farm-to-table dining.",
+          "Signature Dishes: Our must-try dishes include [dish name #1], [dish name #2], and [dish name #3].",
+          "Something for Everyone: Our diverse menu caters to all dietary preferences and needs."
+        ]
+      },
+      "ambiance": "The moment you step into [Restaurant Name], you’ll be greeted by an inviting aroma of freshly baked bread and warm spices. Our interior is designed to create a cozy yet elegant atmosphere.",
+      "chef": {
+        "name": "[Chef's Name]",
+        "experience": "With [X years of experience], [Chef's Name] is the creative force behind our menu.",
+        "philosophy": "To create dishes that blend traditional techniques with bold, contemporary flavors."
+      },
+      "events": [
+        "Weekly Specials: Enjoy exclusive discounts and featured dishes every [specific day].",
+        "Happy Hour: Indulge in our refreshing cocktails and appetizers.",
+        "Seasonal Menus: Our menu evolves with the seasons.",
+        "Private Events: Host your next event with us and make it truly unforgettable."
+      ],
+      "sustainability": [
+        "Using biodegradable packaging and minimizing food waste.",
+        "Partnering with local charities to give back to our community.",
+        "Supporting sustainable farming practices."
+      ],
+      "reviews": [
+        "“The food at [Restaurant Name] is absolutely amazing!”",
+        "“I celebrated my birthday here, and it was perfect.”",
+        "“Best [specific cuisine] food in [City/Location]! Highly recommend the [specific dish].”"
+      ],
+      "address": "[Restaurant Address]",
+      "contact": {
+        "social_media": {
+          "facebook": "https://facebook.com/restaurantname",
+          "instagram": "https://instagram.com/restaurantname"
+        },
+        "newsletter": "Subscribe to our newsletter for exclusive updates."
+      }
+    }
+  }
+}
