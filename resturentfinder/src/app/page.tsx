@@ -41,7 +41,7 @@ export default function HomePage() {
 
   // Filter restaurants based on search term
   const filteredRestaurants = restaurants.filter((restaurant) =>
-    restaurant.name.toLowerCase().includes(searchTerm.toLowerCase())
+    restaurant.city.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   // Redirect to restaurant details page
@@ -73,14 +73,16 @@ export default function HomePage() {
                 <Image
                   src={
                     restaurant.image
-                      ? `/images/${restaurant.image}`
-                      : '/images/default-image.jpg'
+                      ? restaurant.image // Use the image URL directly from the API
+                      : '/images/default-image.jpg' // Fallback to a local default image
                   }
                   alt='Restaurant Image'
                   width={240}
                   height={200}
+                  unoptimized
                   className='restaurant-image'
                 />
+
                 <h3>{restaurant.name}</h3>
                 <p>
                   <strong>City:</strong> {restaurant.city}

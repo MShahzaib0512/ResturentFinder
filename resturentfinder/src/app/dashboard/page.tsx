@@ -5,36 +5,40 @@ import { useState, useEffect } from 'react';
 import Sidebar from './sidebar';
 import './dashboard.css';
 
-interface Stats {
-  restaurants: number;
-  users: number;
-}
-
 export default function DashboardPage() {
-  const [stats, setStats] = useState<Stats>({ restaurants: 0, users: 0 });
+  const [restaurantCount, setRestaurantCount] = useState(0);
+  const [userCount, setUserCount] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const router = useRouter();
 
-  // Fetch Stats from API
+  // Fetch Restaurant Count from API
   useEffect(() => {
-    const fetchStats = async () => {
+    const fetchRestaurantCount = async () => {
       try {
-        const res = await fetch('http://localhost:5000/stats');
-        if (!res.ok) throw new Error('Failed to fetch stats');
+        const res = await fetch('http://localhost:5000/restaurants');
+        if (!res.ok) throw new Error('Failed to fetch restaurant data');
         const data = await res.json();
-        setStats(data);
+        setRestaurantCount(data.length); // Assuming the API returns an array of restaurants
       } catch (error) {
-        console.error('Error fetching stats:', error);
-        setError('Failed to fetch stats, displaying default data.');
-        // Fallback data
-        setStats({
-          restaurants: 45,
-          users: 120,
-        });
+        console.error('Error fetching restaurant count:', error);
+        setError('Failed to fetch restaurant count.');
       }
     };
 
-    fetchStats();
+    const fetchUserCount = async () => {
+      try {
+        const res = await fetch('http://localhost:5000/users');
+        if (!res.ok) throw new Error('Failed to fetch user data');
+        const data = await res.json();
+        setUserCount(data.length); // Assuming the API returns an array of users
+      } catch (error) {
+        console.error('Error fetching user count:', error);
+        setError('Failed to fetch user count.');
+      }
+    };
+
+    fetchRestaurantCount();
+    fetchUserCount();
   }, []);
 
   // Handle Add Restaurant Navigation
@@ -62,11 +66,11 @@ export default function DashboardPage() {
         <div className='stats-container'>
           <div className='stats-card'>
             <h3>Total Restaurants</h3>
-            <p>{stats.restaurants}</p>
+            <p>{restaurantCount}</p>
           </div>
           <div className='stats-card'>
             <h3>Total Users</h3>
-            <p>{stats.users}</p>
+            <p>{userCount}</p>
           </div>
         </div>
         <button className='add-restaurant-btn' onClick={handleAddRestaurant}>

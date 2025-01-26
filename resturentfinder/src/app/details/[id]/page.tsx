@@ -133,10 +133,15 @@ export default function BlogPage() {
         <h1>{restaurant.name}</h1>
         <p>{restaurant.details}</p>
         <Image
-          src={`/images/${restaurant.image}`}
+          src={
+            restaurant.image
+              ? restaurant.image // Use the image URL directly from the API
+              : '/images/default-image.jpg' // Fallback to a local default image
+          }
           alt={restaurant.name}
           width={600}
           height={400}
+          unoptimized
           className='restaurant-image'
         />
         <p>
