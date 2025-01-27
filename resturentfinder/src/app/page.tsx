@@ -59,7 +59,7 @@ export default function HomePage() {
           placeholder='Search restaurants...'
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          aria-label='Search restaurants by name'
+          aria-label='Search restaurants by city'
           className='search-input'
         />
       </header>
@@ -73,8 +73,8 @@ export default function HomePage() {
                 <Image
                   src={
                     restaurant.image
-                      ? restaurant.image // Use the image URL directly from the API
-                      : '/images/default-image.jpg' // Fallback to a local default image
+                      ? restaurant.image
+                      : '/images/default-image.jpg'
                   }
                   alt='Restaurant Image'
                   width={240}

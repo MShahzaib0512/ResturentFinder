@@ -1,6 +1,6 @@
 # project name
 
-Restaurant Finder app
+React Restaurant Finder app
 
 # Description
 
